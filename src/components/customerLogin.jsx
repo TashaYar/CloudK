@@ -47,7 +47,14 @@ function CustomerLogin(props) {
               name="password"
               onChange={handleChange}
             />
-            <button className="btn btn-primary" onClick={handleLogin}>
+            <button
+              className="btn btn-primary"
+              onClick={handleLogin}
+              style={{
+                backgroundColor: "yellowgreen",
+                borderColor: "yellowgreen",
+              }}
+            >
               Login
             </button>
             <h5 className="message">

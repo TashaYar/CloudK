@@ -46,7 +46,11 @@ function TiffinVendorLogin(props) {
               name="password"
               onChange={handleChange}
             />
-            <button className="btn btn-primary" onClick={handleLogin}>
+            <button
+              className="btn btn-primary"
+              onClick={handleLogin}
+              style={{ backgroundColor: "yellowgreen" }}
+            >
               Login
             </button>
             <h5 className="message">

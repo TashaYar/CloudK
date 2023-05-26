@@ -63,6 +63,10 @@ function CustomerHome(props) {
           <button
             className="btn btn-primary px-4"
             type="button"
+            style={{
+              backgroundColor: "greenyellow",
+              borderColor: "greenyellow",
+            }}
             onClick={handleSearch}
           >
             <i className="fa fa-search" aria-hidden="true"></i>

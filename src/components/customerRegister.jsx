@@ -79,7 +79,11 @@ function CustomerRegister(props) {
             onChange={handleChange}
           />
 
-          <button className="btn btn-primary" onClick={handleRegister}>
+          <button
+            className="btn btn-primary"
+            onClick={handleRegister}
+            style={{ backgroundColor: "yellowgreen" }}
+          >
             Register
           </button>
           <h5 className="message">
